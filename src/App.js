@@ -13,8 +13,8 @@ class App extends Component {
           <center>
             <a className="primary_button feat-mng" href="feature_manage.html">Feature Management</a>
             <br />
-            <a className="primary_button group-mng" href="group_manage">Group Management</a>
-            </center>
+            <a className="secondary_button group-mng" href="group_manage">Group Management</a>
+          </center>
         </div>
       </div>
     );

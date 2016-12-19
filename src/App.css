@@ -45,7 +45,7 @@ body {
 }
 .secondary_button{
 
-  background-color: #1285e6; /* Green */
+  background-color: #c53146; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -67,6 +67,10 @@ a{
 
 }
 
-.feat-mng{
-  margin-top: auto;
+#main_div{
+  margin-top: 300px;
+}
+
+.group-mng{
+  margin-top: 50px;
 }
