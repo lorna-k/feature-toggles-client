@@ -89,17 +89,17 @@ h1 {
 .text-input{
 	position: relative;
 }
-.x{
+.done_Addfeature{
 	margin-top:150px;
 	text-align: center;
 	
 }
-.x input[type="button"]{
+.done_Addfeature input[type="button"]{
 	background-color: #7f7f7f;
 	border: 1px solid #7f7f7f;
 }
 
-.x input[type="button"]:hover{
+.done_Addfeature input[type="button"]:hover{
 	background-color: white;
 }
 
