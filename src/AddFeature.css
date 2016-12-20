@@ -66,7 +66,6 @@ h1 {
     background-color: #c53146;
     border: 1px solid #c53146;
     display: inline-block;
-    float:left;
     cursor: pointer;
     color: #FFFFFF;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -80,4 +79,24 @@ h1 {
     background:linear-gradient(to bottom, #9c2737 5%, #9c2737 100%);
     color:#fff;
     background-color:#9c2737;
+}
+.input_addFeature{
+	float: left;
+	padding-right: 100px;
+}
+.text-input{
+	position: relative;
+}
+.x{
+	margin-top:150px;
+	text-align: center;
+	
+}
+.x input[type="button"]{
+	background-color: #7f7f7f;
+	border: 1px solid #7f7f7f;
+}
+
+.x input[type="button"]:hover{
+	background-color: white;
 }

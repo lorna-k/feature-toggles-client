@@ -14,11 +14,19 @@ class AddFeature extends Component{
         <div id="container">
           <div className="form-style-8">
             <h1>Add a Feature</h1>
-            <form className="text-input">
-              <input  type="text" name="field1" placeholder="Enter feature name" className="sliding-middle-out"/>
-              <input type="button" value="Save" />
-            </form>
+            <div>
+              <form className="text-input">
+                <input  type="text" name="field1" placeholder="Enter feature name" className="input_addFeature"/>
+                <input type="button" value="Save" className="input_addFeature"/>
+
+              </form>
+            </div>
+            
+            <div className="x">
+              <input className="y" type="button" value="Done"/>
+            </div>
           </div>
+
         </div>
       </div>
     );
