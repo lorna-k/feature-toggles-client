@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './AG-Logo.png';
-import './App.css';
+import {Link} from "react-router"
+import logo from '../AG-Logo.png';
+import '../App.css';
 
 class App extends Component {
   render() {
@@ -11,9 +12,9 @@ class App extends Component {
         </div>
         <div id="main_div">
           <ul>
-            <a className="primary_button feat-mng" href="/features">Feature Management</a>
+            <li className="primary_button feat-mng"><Link to="/features">Feature Management</Link></li>
             <br />
-            <a className="secondary_button group-mng" href="/groups">Group Management</a>
+            <li className="secondary_button group-mng"><Link to="/groups">Group Management</Link></li>
           </ul>
         </div>
       </div>

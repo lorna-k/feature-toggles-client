@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from "react-router"
-import logo from './AG-Logo.png';
+import logo from '../AG-Logo.png';
 
 class Feature_Manage extends Component{
   render(){
@@ -11,11 +11,11 @@ class Feature_Manage extends Component{
         </div>
         <div id="main_div">
           <ul>
-            <a className="primary_button feat-mng" href="/features/add-feature">Add feature to a group</a>
+            <li className="primary_button feat-mng"><Link to="features/add-feature">Add new feature to a group</Link></li>
             <br />
-            <a className="secondary_button group-mng" href="#">Remove feature from a group</a>
+            <li className="secondary_button group-mng"><Link to="#">Remove feature from a group</Link></li>
             <br />
-            <a className="secondary_button group-mng" href="#">Assign feature to a group</a>
+            <li className="secondary_button group-mng"><Link to="#">Assign feature to a group</Link></li>
           </ul>
         </div>
       </div>
