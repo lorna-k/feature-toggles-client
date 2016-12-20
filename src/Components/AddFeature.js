@@ -3,6 +3,7 @@ import {Link} from "react-router"
 import logo from '../AG-Logo.png';
 import '../AddFeature.css';
 
+
 class AddFeature extends Component{
   render(){
     return(
@@ -14,7 +15,7 @@ class AddFeature extends Component{
           <div className="form-style-8">
             <h1>Add a Feature</h1>
             <form className="text-input">
-              <input type="text" name="field1" placeholder="Enter feature name" />
+              <input  type="text" name="field1" placeholder="Enter feature name" className="sliding-middle-out"/>
               <input type="button" value="Save" />
             </form>
           </div>
