@@ -11,9 +11,9 @@ class Group_Manage extends Component{
         </div>
         <div id="main_div">
           <ul>
-          <li className="primary_button feat-mng"><Link to="#">Add user to a group</Link></li>
+          <li className="primary_button feat-mng"><Link to="groups/add-user">Add new user to a group</Link></li>
           <br />
-          <li className="secondary_button group-mng"><Link to="#">Remove a user from a group</Link></li>
+          <li className="secondary_button group-mng"><Link to="groups/remove-user">Remove a user from a group</Link></li>
           <br />
           <li className="secondary_button group-mng"><Link to="#">Assign feature to a group</Link></li>
           </ul>
