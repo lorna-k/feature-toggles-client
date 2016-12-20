@@ -81,3 +81,23 @@ h1 {
     color:#fff;
     background-color:#9c2737;
 }
+
+
+.text-input{
+    position: relative;
+}
+.add_user .primary_button{
+    background-color: #c53146;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'ProximaNova', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    padding-top: auto;
+    float: right;
+    margin-top: -50px;
+}

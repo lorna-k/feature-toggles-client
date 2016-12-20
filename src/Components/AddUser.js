@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../AG-Logo.png';
+import {Link} from "react-router"
 import '../AddUser.css';
 
 class AddUser extends Component{
@@ -24,11 +25,19 @@ class AddUser extends Component{
         </div>
         <div id="container">
           <div className="form-style-8">
-            <h1>Add a new user to a group</h1>
+            <h1>Adding an existing user to a group</h1>
+
+            <div>
             <form className="text-input">
               <input type="text" name="userName" placeholder="Enter user name" onChange={this.parseInputText.bind(this)}/>
-              <button className="primary_button" onClick={this.handleClick.bind(this)}>Save</button>
+              <div className="add_user">
+               <Link to="groups/add-user/add-user-togroup"><button className="primary_button">Search</button></Link> 
+              </div>
+
+
             </form>
+            </div>
+
           </div>
         </div>
       </div>
