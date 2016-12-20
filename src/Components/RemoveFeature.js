@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import logo from '../AG-Logo.png';
 import '../RemoveFeature.css';
 
-class AddFeature extends Component{
+class RemoveFeature extends Component{
   handleClick(e){
     if(this.state.featureName != ""){
-      alert("You are about to remove this feature to db: "+ this.state.featureName);
+      alert("You are about to remove this feature from db: "+ this.state.featureName);
       //Method to interact with JSON API (@Skhumbuzo & Mnotho)
     }
     else{
@@ -24,7 +24,7 @@ class AddFeature extends Component{
         </div>
         <div id="container">
           <div className="form-style-8">
-            <h1>Remove a Feature</h1>
+            <h1>Remove an existing feature</h1>
             <form className="text-input">
               <input type="text" name="featureName" placeholder="Enter feature name" onChange={this.parseInputText.bind(this)}/>
               <button className="primary_button" onClick={this.handleClick.bind(this)}>Remove</button>
@@ -35,4 +35,4 @@ class AddFeature extends Component{
     );
   }
 }
-export default AddFeature;
+export default RemoveFeature;

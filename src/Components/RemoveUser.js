@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import logo from '../AG-Logo.png';
-import '../AddFeature.css';
+import '../RemoveUser.css';
 
-class AddFeature extends Component{
+class RemoveUser extends Component{
   handleClick(e){
-    if(this.state.featureName != ""){
-      alert("You are about to add this feature to db: "+ this.state.featureName);
+    if(this.state.userName != ""){
+      alert("You are about to remove this user from db: "+ this.state.userName);
       //Method to interact with JSON API (@Skhumbuzo & Mnotho)
     }
     else{
-      alert("Input is empty. Enter a feature to add");
+      alert("Input is empty. Enter a feature to remove");
     }
   }
   parseInputText(e){
-    this.setState({featureName: e.target.value});
+    this.setState({userName: e.target.value});
   }
   render(){
     return(
@@ -24,10 +24,10 @@ class AddFeature extends Component{
         </div>
         <div id="container">
           <div className="form-style-8">
-            <h1>Add a new feature </h1>
+            <h1>Remove an existing user from a group</h1>
             <form className="text-input">
-              <input type="text" name="featureName" placeholder="Enter feature name" onChange={this.parseInputText.bind(this)}/>
-              <button className="primary_button" onClick={this.handleClick.bind(this)}>Save</button>
+              <input type="text" name="userName" placeholder="Enter user name" onChange={this.parseInputText.bind(this)}/>
+              <button className="primary_button" onClick={this.handleClick.bind(this)}>Remove</button>
             </form>
           </div>
         </div>
@@ -35,4 +35,4 @@ class AddFeature extends Component{
     );
   }
 }
-export default AddFeature;
+export default RemoveUser;
