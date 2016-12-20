@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import logo from '../AG-Logo.png';
-import '../AddFeature.css';
+import '../RemoveFeature.css';
 
 class AddFeature extends Component{
   handleClick(e){
     if(this.state.featureName != ""){
-      alert("You are about to add this feature to db: "+ this.state.featureName);
+      alert("You are about to remove this feature to db: "+ this.state.featureName);
       //Method to interact with JSON API (@Skhumbuzo & Mnotho)
     }
     else{
-      alert("Input is empty. Enter a feature to add");
+      alert("Input is empty. Enter a feature to remove");
     }
   }
   parseInputText(e){
@@ -24,10 +24,10 @@ class AddFeature extends Component{
         </div>
         <div id="container">
           <div className="form-style-8">
-            <h1>Add a Feature</h1>
+            <h1>Remove a Feature</h1>
             <form className="text-input">
               <input type="text" name="featureName" placeholder="Enter feature name" onChange={this.parseInputText.bind(this)}/>
-              <button className="primary_button" onClick={this.handleClick.bind(this)}>Save</button>
+              <button className="primary_button" onClick={this.handleClick.bind(this)}>Remove</button>
             </form>
           </div>
         </div>

@@ -7,6 +7,7 @@ import Home from "./Components/App";
 import Feature from "./Components/Feature_Manage";
 import Group from "./Components/Group_Manage";
 import AddFeature from "./Components/AddFeature";
+import RemoveFeature from "./Components/RemoveFeature";
 
 class AppRouter extends Component{
   render(){
@@ -15,6 +16,7 @@ class AppRouter extends Component{
         <Route path={"home"} component={Home} />
         <Route path={"features"} component={Feature}/>
         <Route path={"features/add-feature"} component={AddFeature} />
+        <Route path={"features/remove-feature"} component={RemoveFeature} />
         <Route path={"groups"} component={Group} />
       </Router>
     );

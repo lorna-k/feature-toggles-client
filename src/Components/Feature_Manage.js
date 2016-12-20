@@ -13,7 +13,7 @@ class Feature_Manage extends Component{
           <ul>
             <li className="primary_button feat-mng"><Link to="features/add-feature">Add new feature to a group</Link></li>
             <br />
-            <li className="secondary_button group-mng"><Link to="#">Remove feature from a group</Link></li>
+            <li className="secondary_button group-mng"><Link to="features/remove-feature">Remove feature from a group</Link></li>
             <br />
             <li className="secondary_button group-mng"><Link to="#">Assign feature to a group</Link></li>
           </ul>
