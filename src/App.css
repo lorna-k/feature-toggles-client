@@ -39,10 +39,18 @@ body {
   display: inline-block;
   font-family:  'ProximaNova', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
   font-size: 16px;
+  width: 150px;
+  height: 40px;
+  padding-top: auto;
 }
 .primary_button:hover{
   color:#fff;background-color:#9c2737;
 }
+
+.secondary_button:hover{
+  color:#fff;background-color:#9c2737;
+}
+
 .secondary_button{
 
   background-color: #c53146; /* Green */
@@ -53,11 +61,15 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  width: 150px;
+  height: 40px;
+  padding-top: auto;
 
 }
-a{
+a, li{
 
   text-decoration: none;
+  color: white;
 }
 #head{
   background-color: black;
@@ -73,4 +85,12 @@ a{
 
 .group-mng{
   margin-top: 50px;
+}
+
+ul{
+  text-align: center;
+}
+
+h1{
+  color: white;
 }
