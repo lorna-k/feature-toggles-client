@@ -17,6 +17,7 @@ class App extends Component {
             <input type="text" name="field1" placeholder="Enter feature name" />
             <input type="button" value="Save" />
           </form>
+
         </div>
       </div>
       </div>
