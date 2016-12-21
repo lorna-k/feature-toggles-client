@@ -26,7 +26,7 @@ class RemoveFeature extends Component{
           <div className="form-style-8">
             <h1>Remove an existing feature</h1>
             <form className="text-input">
-              <input type="text" name="featureName" placeholder="Enter feature name" onChange={this.parseInputText.bind(this)}/>
+              <input type="text" name="featureName" placeholder="Enter name of feature to remove" onChange={this.parseInputText.bind(this)}/>
               <button className="primary_button" onClick={this.handleClick.bind(this)}>Remove</button>
             </form>
           </div>
