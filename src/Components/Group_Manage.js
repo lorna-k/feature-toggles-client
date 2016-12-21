@@ -9,7 +9,7 @@ class Group_Manage extends Component{
         <div className="App-header">
           <a href="/home"><img src={logo} className="App-logo" alt="logo" /></a>
         </div>
-        <div id="main_div">
+        <div id="main_div_second">
           <ul>
           <li className="primary_button feat-mng"><Link to="groups/add-user">Add new user to a group</Link></li>
           <br />

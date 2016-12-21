@@ -9,7 +9,7 @@ class Feature_Manage extends Component{
         <div className="App-header">
           <a href="/home"><img src={logo} className="App-logo" alt="logo" /></a>
         </div>
-        <div id="main_div">
+        <div id="main_div_second">
           <ul>
             <li className="primary_button feat-mng"><Link to="features/add-feature">Add new feature to a group</Link></li>
             <br />
