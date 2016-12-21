@@ -33,7 +33,6 @@ class RemoveUser extends Component{
               <Link to="groups/remove-user/remove-user-fromgroup">
                 <input type="button" value="Search" className="primary_button" className="input_removeUser_fromGroup" onClick={this.handleClick.bind(this)}/>
               </Link>
-
             </form>
             </div>
           </div>

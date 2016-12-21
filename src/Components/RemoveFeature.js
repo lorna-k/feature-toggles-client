@@ -31,6 +31,7 @@ class RemoveFeature extends Component{
                 <input type="button" value="Remove" className="remove_addFeature" onClick={this.handleClick.bind(this)}/>
               </form>
             </div>
+
           </div>
         </div>
       </div>
