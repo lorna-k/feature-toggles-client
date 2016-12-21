@@ -95,7 +95,7 @@ class AddFeature extends Component{
             </div>
 
             <div className="done_Addfeature">
-              <input className="y" type="button" value="Done"/>
+              <input className="done_button" type="button" value="Done"/>
             </div>
           </div>
 

@@ -1,4 +1,10 @@
-
+.Add_feat{
+	background-color: #fcfcfc;
+  	background-image: url("wall-1x.png");
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
 h1 { 
 	color:Black; 
 }
@@ -69,6 +75,7 @@ h1 {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .form-style-8 input[type="button"]:hover,
 .form-style-8 input[type="submit"]:hover {
     background:linear-gradient(to bottom, #9c2737 5%, #9c2737 100%);
