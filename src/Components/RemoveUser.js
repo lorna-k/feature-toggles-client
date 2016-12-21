@@ -26,7 +26,7 @@ class RemoveUser extends Component{
           <div className="form-style-8">
             <h1>Remove an existing user from a group</h1>
             <form className="text-input">
-              <input type="text" name="userName" placeholder="Enter user name" onChange={this.parseInputText.bind(this)}/>
+              <input type="text" name="userName" placeholder="Enter name of user to remove" onChange={this.parseInputText.bind(this)}/>
               <button className="primary_button" onClick={this.handleClick.bind(this)}>Remove</button>
             </form>
           </div>

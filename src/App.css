@@ -78,20 +78,24 @@ a, li{
 
 }
 
-#main_div{
-  margin-top: 300px;
-}
-
 .group-mng{
   margin-top: 50px;
 }
 
 ul{
   text-align: center;
+  margin-top: 100px;
 }
 
 h1{
   color: white;
   text-align: center;
+  margin-left: auto;
+}
+
+.welcome{
+  color: white;
+  padding-top: 100px;
+  margin-left: 75px;
 }
 
