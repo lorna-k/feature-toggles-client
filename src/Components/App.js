@@ -11,6 +11,7 @@ class App extends Component {
           <a href="/home"><img src={logo} className="App-logo" alt="logo" /></a>
         </div>
         <div id="main_div">
+          <h1 className="welcome">Welcome to the feature toggling system</h1>
           <ul>
             <li className="primary_button feat-mng"><Link to="/features">Feature Management</Link></li>
             <br />
