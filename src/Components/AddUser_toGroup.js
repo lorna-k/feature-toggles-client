@@ -25,7 +25,7 @@ class AddUser_toGroup extends Component{
               </form>
             </div>
             
-            <div className="done_Addfeature">
+            <div className="done_AddUser_toGroup">
               <input className="y" type="button" value="Done"/>
             </div>
 
