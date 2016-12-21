@@ -34,7 +34,7 @@ class AddFeature extends Component{
 
               </form>
             </div>
-            
+
             <div className="done_Addfeature">
               <input className="y" type="button" value="Done"/>
             </div>

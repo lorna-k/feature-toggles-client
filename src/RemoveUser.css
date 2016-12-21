@@ -81,3 +81,12 @@ h1 {
     color:#fff;
     background-color:#9c2737;
 }
+
+.input_removeUser{
+	float: left;
+	padding-right: 150px;
+}
+
+.text-input{
+	position: relative;
+}

@@ -82,23 +82,11 @@ h1 {
     background-color:#9c2737;
 }
 
-.input_removeFeature{
+.input_removeUser_fromGroup{
 	float: left;
-	padding-right: 100px;
+	padding-right: 150px;
 }
+
 .text-input{
 	position: relative;
-}
-.done_removeFeature{
-	margin-top:150px;
-	text-align: center;
-
-}
-.done_removeFeature input[type="button"]{
-	background-color: #7f7f7f;
-	border: 1px solid #7f7f7f;
-}
-
-.done_removeFeature input[type="button"]:hover{
-	background-color: white;
 }

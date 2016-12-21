@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../AG-Logo.png';
-import '../AddUser_toGroup.css';
+import '../RemoveUser_fromGroup.css';
 
 
-class AddUser_toGroup extends Component{
+class RemoveUser_fromGroup extends Component{
 
 
   render(){
@@ -19,12 +19,12 @@ class AddUser_toGroup extends Component{
 
             <div>
               <form className="text-input">
-                <input  type="text" name="featureName" placeholder="Enter Group Name" className="input_addUser_toGroup" />
-                <input type="button" value="Save" className="primary_button" className="input_addUser_toGroup"/>
+                <input  type="text" name="groupName" placeholder="Enter Group Name" className="input_removeUser_fromGroup" />
+                <input type="button" value="Save" className="primary_button" className="input_removeUser_fromGroup"/>
 
               </form>
             </div>
-            
+
             <div className="done_addUser_toGroup">
               <input className="y" type="button" value="Done"/>
             </div>
@@ -36,4 +36,4 @@ class AddUser_toGroup extends Component{
     );
   }
 }
-export default AddUser_toGroup;
+export default RemoveUser_fromGroup;

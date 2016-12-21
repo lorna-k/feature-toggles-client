@@ -31,7 +31,7 @@ class AddUser extends Component{
             <form className="text-input">
               <input type="text" name="userName" placeholder="Enter user name" onChange={this.parseInputText.bind(this)}/>
               <div className="add_user">
-               <Link to="groups/add-user/add-user-togroup"><button className="primary_button">Search</button></Link> 
+                <Link to="groups/add-user/add-user-togroup"><button className="primary_button" onClick={this.handleClick.bind(this)}>Search</button></Link>
               </div>
 
 

@@ -5,8 +5,8 @@
     height: 100vh;
     position: relative;
 }
-h1 { 
-	color:Black; 
+h1 {
+	color:Black;
 }
 
 /*for for input box on add feature page*/
@@ -92,7 +92,7 @@ h1 {
 .done_Addfeature{
 	margin-top:150px;
 	text-align: center;
-	
+
 }
 .done_Addfeature input[type="button"]{
 	background-color: #7f7f7f;
@@ -102,4 +102,3 @@ h1 {
 .done_Addfeature input[type="button"]:hover{
 	background-color: white;
 }
-
