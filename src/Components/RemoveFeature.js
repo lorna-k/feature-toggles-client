@@ -25,10 +25,13 @@ class RemoveFeature extends Component{
         <div id="container">
           <div className="form-style-8">
             <h1>Remove an existing feature</h1>
-            <form className="text-input">
-              <input type="text" name="featureName" placeholder="Enter name of feature to remove" onChange={this.parseInputText.bind(this)}/>
-              <button className="primary_button" onClick={this.handleClick.bind(this)}>Remove</button>
-            </form>
+            <div>
+              <form className="text-input">
+                <input type="text" name="featureName" placeholder="Enter feature name" className="input_removeFeature" onChange={this.parseInputText.bind(this)}/>
+                <input type="button" value="Remove" className="remove_addFeature" onClick={this.handleClick.bind(this)}/>
+              </form>
+            </div>
+
           </div>
         </div>
       </div>

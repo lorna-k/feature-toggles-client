@@ -11,6 +11,7 @@ import RemoveFeature from "./Components/RemoveFeature";
 import AddUser from "./Components/AddUser";
 import AddUser_toGroup from "./Components/AddUser_toGroup";
 import RemoveUser from "./Components/RemoveUser";
+import RemoveUser_fromGroup from "./Components/RemoveUser_fromGroup";
 
 class AppRouter extends Component{
   render(){
@@ -24,6 +25,7 @@ class AppRouter extends Component{
         <Route path={"groups/add-user"} component={AddUser} />
         <Route path={"groups/add-user/add-user-togroup"} component={AddUser_toGroup} />
         <Route path={"groups/remove-user"} component={RemoveUser} />
+        <Route path={"groups/remove-user/remove-user-fromgroup"} component={AddUser_toGroup} />
       </Router>
     );
   }

@@ -85,13 +85,18 @@ class AddFeature extends Component{
         </div>
         <div id="container">
           <div className="form-style-8">
+          <h1>Add a Feature</h1>
+            <div>
+              <form className="text-input">
+                <input  type="text" name="featureName" placeholder="Enter feature name" className="input_addFeature" onChange={this.parseInputText.bind(this)}/>
+                <input type="button" value="Save" className="input_addFeature" onClick={this.handleClick.bind(this)}/>
 
-            <h1>Add a Feature</h1>
-            <form className="text-input">
-              <input type="text" name="featureName" placeholder="Enter name of the feature to add" onChange={this.parseInputText.bind(this)}/>
-              <button className="primary_button" onClick={this.handleClick.bind(this)}>Save</button>
-            </form>
+              </form>
+            </div>
 
+            <div className="done_Addfeature">
+              <input className="y" type="button" value="Done"/>
+            </div>
           </div>
 
         </div>

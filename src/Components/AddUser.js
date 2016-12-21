@@ -87,8 +87,10 @@ class AddUser extends Component{
 
             <div>
             <form className="text-input">
-
-              <input type="text" name="userName" placeholder="Enter name and surname separated by whitespace" onChange={this.parseInputText.bind(this)}/>
+              <input type="text" name="userName" placeholder="Enter user name" onChange={this.parseInputText.bind(this)}/>
+              <div className="add_user">
+                <Link to="groups/add-user/add-user-togroup"><button className="primary_button" onClick={this.handleClick.bind(this)}>Search</button></Link>
+              </div>    <input type="text" name="userName" placeholder="Enter name and surname separated by whitespace" onChange={this.parseInputText.bind(this)}/>
               <button className="primary_button" onClick={this.handleClick.bind(this)}>Save</button>
             </form>
             </div>

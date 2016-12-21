@@ -1,6 +1,13 @@
+.Add_feat{
+	background-color: #fcfcfc;
+  	background-image: url("wall-1x.png");
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
 
-h1 { 
-	color:Black; 
+h1 {
+	color:Black;
 }
 
 /*for for input box on add feature page*/
@@ -60,7 +67,6 @@ h1 {
     border: 1px solid #c53146;
     display: inline-block;
     float:left;
-
     cursor: pointer;
     color: #FFFFFF;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -76,24 +82,11 @@ h1 {
     background-color:#9c2737;
 }
 
-.input_addFeature{
+.input_removeUser_fromGroup{
 	float: left;
-	padding-right: 100px;
+	padding-right: 150px;
 }
+
 .text-input{
 	position: relative;
 }
-.done_Addfeature{
-	margin-top:150px;
-	text-align: center;
-	
-}
-.done_Addfeature input[type="button"]{
-	background-color: #7f7f7f;
-	border: 1px solid #7f7f7f;
-}
-
-.done_Addfeature input[type="button"]:hover{
-	background-color: white;
-}
-
