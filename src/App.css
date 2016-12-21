@@ -99,3 +99,12 @@ h1{
   margin-left: 75px;
 }
 
+
+/*Applies white backround to html pages*/
+.Add_feat{
+  background-color: #fcfcfc;
+    background-image: url("wall-1x.png");
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}

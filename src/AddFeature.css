@@ -1,10 +1,4 @@
-.Add_feat{
-	background-color: #fcfcfc;
-  	background-image: url("wall-1x.png");
-    background-position: center center;
-    height: 100vh;
-    position: relative;
-}
+
 h1 {
 	color:Black;
 }
@@ -102,6 +96,7 @@ h1 {
 .done_Addfeature input[type="button"]:hover{
 	background-color: white;
 }
+
 .breadcrumbs ul{
 	list-style-type: none;
 }
