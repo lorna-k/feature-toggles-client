@@ -102,3 +102,23 @@ h1 {
 .done_Addfeature input[type="button"]:hover{
 	background-color: white;
 }
+.breadcrumbs ul{
+	list-style-type: none;
+}
+.breadcrumbs ul li {
+	color:black;
+	display:inline;
+}
+.arrow-logo > img{
+	height:13px;
+	width: auto;
+}
+
+ul .current-page{
+	/*text-decoration: underline;*/
+	font-weight: bold;
+}
+
+ul .page-text:hover{
+	text-decoration:underline;
+}
