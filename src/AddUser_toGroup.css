@@ -4,8 +4,14 @@
     background-position: center center;
     height: 100vh;
     position: relative;
-		text-align:center;
+		/*text-align:center;*/
 
+}
+.Add_feat .done_Addfeature{
+text-align: center;
+}
+.Add_feat .done_removefeature{
+text-align: center;
 }
 h1 {
 	color:Black;

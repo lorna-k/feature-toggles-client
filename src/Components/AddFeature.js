@@ -64,8 +64,9 @@ class AddFeature extends Component{
 
   handleClick(e){
     if(this.state.featureName !== ""){
-      alert("You are about to add this feature to db: "+ this.state.featureName);
+      // alert("You are about to add this feature to db: "+ this.state.featureName);
       this.addFeature(this.state.featureName);
+      location.href="/features/add-feature/confirm";
       //Method to interact with JSON API (@Skhumbuzo & @Mnotho)
     }
     else{
