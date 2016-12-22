@@ -1,0 +1,14 @@
+.confirmationbox
+{
+  text-align:center;
+  font-weight:lighter;
+}
+
+.input_confirm .primary_button
+{
+  cursor:pointer;
+}
+
+.emptydiv_confirm{
+  height:20px;
+}
