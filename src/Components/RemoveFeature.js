@@ -3,10 +3,10 @@ import logo from '../AG-Logo.png';
 import '../RemoveFeature.css';
 import breadcrumb_logo from '../breadcrumb-logo.png';
 
-class RemoveFeature extends Component{
+class AddFeature extends Component{
   handleClick(e){
     if(this.state.featureName != ""){
-      alert("You are about to remove this feature from db: "+ this.state.featureName);
+      alert("You are about to remove this feature to db: "+ this.state.featureName);
       //Method to interact with JSON API (@Skhumbuzo & Mnotho)
     }
     else{
@@ -34,6 +34,7 @@ class RemoveFeature extends Component{
         </div>
         <div id="container">
           <div className="form-style-8">
+
             <h1>Remove an existing feature</h1>
             <div>
               <form className="text-input">
@@ -51,4 +52,4 @@ class RemoveFeature extends Component{
     );
   }
 }
-export default RemoveFeature;
+export default AddFeature;
