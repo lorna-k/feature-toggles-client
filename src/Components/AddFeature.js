@@ -83,6 +83,7 @@ class AddFeature extends Component{
       <div className="Add_feat">
         <div className="App-header">
           <a href="/home"><img src={logo} className="App-logo" alt="logo" /></a>
+
         </div>
 
         <div className="breadcrumbs">
@@ -107,7 +108,7 @@ class AddFeature extends Component{
             </div>
 
             <div className="done_Addfeature">
-              <input className="y" type="button" value="Done"/>
+              <input type="button" id="y" value="Done"/>
             </div>
           </div>
 

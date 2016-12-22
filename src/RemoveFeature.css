@@ -1,0 +1,12 @@
+.done_removefeature{
+	margin-top:150px;
+}
+
+div #y{
+	background-color: #7f7f7f;
+	border: 1px solid #7f7f7f;
+	}
+
+.done_removefeature input[type="button"]:hover{
+	background-color: white;
+}

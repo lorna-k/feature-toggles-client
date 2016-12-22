@@ -3,6 +3,7 @@ import logo from '../AG-Logo.png';
 import {Link} from "react-router"
 import '../AddUser.css';
 import request from "request";
+import breadcrumb_logo from '../breadcrumb-logo.png';
 
 class AddUser extends Component{
   //server manipulation functions
@@ -81,6 +82,16 @@ class AddUser extends Component{
         <div className="App-header">
           <a href="/home"><img src={logo} className="App-logo" alt="logo" /></a>
         </div>
+        <div className="breadcrumbs">
+          <ul>
+          <a href="/home">  <li className="page-text">Home</li></a>
+              <li className="arrow-logo"><img src={breadcrumb_logo} /></li>
+          <a href="/groups"><li className="page-text">Group Management</li></a>
+              <li className="arrow-logo"><img src={breadcrumb_logo} /></li>
+            <li className="current-page">Add User</li>
+          </ul>
+        </div>
+
         <div id="container">
           <div className="form-style-8">
             <h1>Adding an existing user to a group</h1>
@@ -88,9 +99,10 @@ class AddUser extends Component{
             <div>
             <form className="text-input">
               <input type="text" name="userName" placeholder="Enter name and surname separated by whitespace" onChange={this.parseInputText.bind(this)}/>
-              <div className="add_user">
-                <Link to="groups/add-user/add-user-togroup"><button className="primary_button" onClick={this.handleClick.bind(this)}>Search</button></Link>
-              </div>
+              <Link to="groups/add-user/add-user-togroup">
+                <input type="button" value="Search" className="primary_button" className="input_addUser" onClick={this.handleClick.bind(this)}/>
+              </Link>
+                <div className="emptydiv"></div>
             </form>
             </div>
 
